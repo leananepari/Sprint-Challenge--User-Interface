@@ -324,7 +324,7 @@ footer nav a {
 =============================*/
 .row-products-page {
   display: flex;
-  padding-top: 30px;
+  padding: 20px;
 }
 .item-left-product {
   margin-right: 50px;
