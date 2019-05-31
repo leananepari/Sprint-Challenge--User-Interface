@@ -295,3 +295,37 @@ footer nav a {
 .bottom-about-page {
   padding: 20px;
 }
+
+/*----------------------------------------------------------------------------
+ P R O D U C T S   P A G E
+--------------------------------------------------------------------------*/
+/*==================================
+ HEADER
+==================================*/
+.header-img-products-page img{
+  width: 100%;
+}
+.header-img-products-page {
+  margin-top: 90px;
+}
+.header-content-products h1{
+  text-align: left;
+}
+.header-content-products p {
+  text-align: left;
+}
+.header-content-products {
+  padding: 20px;
+  border-bottom: 1px dashed black;
+}
+
+/*============================
+ MAIN
+=============================*/
+.row-products-page {
+  display: flex;
+  padding-top: 30px;
+}
+.item-left-product {
+  margin-right: 50px;
+}
