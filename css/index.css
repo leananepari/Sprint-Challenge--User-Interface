@@ -80,7 +80,7 @@ p {
 header {
   text-align: center;
  }
-.navBar {
+.nav-bar {
   width: 80%;
   position: fixed;
   top: 0;
@@ -96,20 +96,20 @@ header nav {
 header nav a img {
   width: 100%;
 }
-.navBar a{
+.nav-bar a{
   text-decoration: none;
   text-align: center;
   color: grey;
   padding: 25px;
 }
-.navBar a:hover {
+.nav-bar a:hover {
   color: #696969;
   text-shadow: 5px 5px 10px rgba(0,0,0,.2);
 }
-.headerImgHomePage img{
+.header-img-home-page img{
   width: 100%;
 }
-.headerImgHomePage {
+.header-img-home-page {
   margin-top: 90px;
 }
 .top-content {
@@ -154,36 +154,47 @@ header nav a img {
     align-items: center;
     justify-content: center;
 }
+
 .middle-content .boxes .box:first-child {
   background: teal;
 }
+
 .middle-content .boxes .box:nth-child(2) {
   background: gold;
 }
+
 .middle-content .boxes .box:nth-child(3) {
   background: cadetblue;
 }
+
 .middle-content .boxes .box:nth-child(4) {
   background: coral;
 }
+
 .middle-content .boxes .box:nth-child(5) {
   background: crimson;
 }
+
 .middle-content .boxes .box:nth-child(6) {
   background: forestgreen;
 }
+
 .middle-content .boxes .box:nth-child(7) {
   background: darkorchid;
 }
+
 .middle-content .boxes .box:nth-child(8) {
   background: hotpink;
 }
+
 .middle-content .boxes .box:nth-child(9) {
   background: indigo;
 }
+
 .middle-content .boxes .box:nth-child(10) {
   background: dodgerblue;
 }
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -198,6 +209,9 @@ header nav a img {
     padding-right: 0;
 }
 
+/*====================================
+ FOOTER
+=====================================*/
 footer {
     width: 100%;
     background: black;
@@ -215,4 +229,69 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/*------------------------------------------------------------------------------
+ A B O U T   P A G E
+-----------------------------------------------------------------------------*/
+/*===============================
+ HEADER
+===============================*/
+.header-img-about-page img {
+  width: 100%
+}
+.header-img-about-page {
+  padding-top: 90px;
+}
+.header-content-about h1{
+  text-align: left;
+}
+.header-content-about p {
+  text-align: left;
+}
+.header-content-about {
+  padding: 20px;
+  border-bottom: 1px dashed black;
+}
+
+/*=================================
+ MAIN
+=================================*/
+.row-about-page {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.item-about-page {
+  text-align: left;
+  border-bottom: 1px dashed black;
+}
+.item-about-page img {
+  width: 100%;
+}
+.item-about-page h2 {
+ padding-top: 10px;
+}
+.item-about-page p {
+  padding-bottom: 20px;
+}
+.item-about-page button {
+  padding: 8px;
+  width: 120px;
+  background-color: #f9f9ff;
+  border: 1px solid grey;
+  border-radius: 5px;
+  outline: 0;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.item-about-page button:hover {
+  box-shadow: 0 0 15px rgba(0,0,0,.2);
+}
+.item-left-about {
+  margin-right: 40px;
+}
+.bottom-about-page {
+  padding: 20px;
 }
