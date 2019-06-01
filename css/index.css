@@ -329,3 +329,29 @@ footer nav a {
 .item-left-product {
   margin-right: 50px;
 }
+
+
+/*---------------------------------------------------------------------------
+ C O N T A C T   P A G E
+---------------------------------------------------------------------------*/
+/*==============================
+ MAIN
+==============================*/
+.form-contact-page {
+  padding-top: 90px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.form-contact-page h1 {
+  text-align: center;
+  font-size: 30px;
+}
+.form-contact-page form {
+  border: 1px solid grey;
+  padding: 30px;
+  font-size: 18px;
+}
+.input-contact-page {
+  width: 200px;
+  height: 25px;
+}

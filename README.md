@@ -36,7 +36,7 @@ Edit this document to include your answers after each question. Make sure to lea
    Semantic HTML is an HTML markup that introduces meaning to your page. The idea is to use HTML tags that describe the content of each section of your page..
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.<br>
-   Difference one: block elements take up the full width available on the page; inline elements take up as much width as needed to fit in other elements(if any) ono the side.
+   Difference one: block elements take up the full width available on the page; inline elements take up as much width as needed to fit in other elements(if any) ono the side.<br>
    Difference two: block elements create a new line before and after itself; inline elements do not.
 
 3. What are the 4 areas of the box model?<br>
