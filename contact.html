@@ -13,6 +13,11 @@
 </head>
 
 <body>
+    <script>
+      function handleSubmit() {
+        window.open('thankyou.html');
+      }
+    </script>
     <div class="container">
       <header>
         <div class="nav-bar">
@@ -29,19 +34,19 @@
       <main>
         <div class="form-contact-page">
           <h1>Get in touch with us</h1>
-          <form >
-            First name:<br><br>
-            <input class="input-contact-page" type="text" name="firstname" value="">
-            <br><br>
-            Last name:<br><br>
-            <input class="input-contact-page" type="text" name="lastname" value="">
-            <br><br>
-            Email:<br><br>
-            <input class="input-contact-page" type="text" name="email" value="">
-        
-            <br><br>
-            <a href="index.html"><button class="button-contact-page" type="submit" value="Submit">Submit</button></a> 
-          </form> 
+            <form onsubmit="handleSubmit()">
+              First name:<br><br>
+              <input class="input-contact-page" type="text" name="firstname" value="">
+              <br><br>
+              Last name:<br><br>
+              <input class="input-contact-page" type="text" name="lastname" value="">
+              <br><br>
+              Email:<br><br>
+              <input class="input-contact-page" type="text" name="email" value="">
+          
+              <br><br>
+              <input class="button-contact-page" type="submit" value="Submit">
+            </form> 
         </div>
       </main>
       <footer class="footer-contact-page">
