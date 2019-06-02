@@ -77,14 +77,17 @@ p {
   width: 80%;
   margin: 0 auto;
 }
+
 header {
   text-align: center;
  }
+
 .nav-bar {
   width: 80%;
   position: fixed;
   top: 0;
 }
+
 header nav {
   display: flex;
   justify-content: space-between;
@@ -93,25 +96,31 @@ header nav {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.17);
   height: 70px;
 }
+
 header nav a img {
   width: 100%;
 }
+
 .nav-bar a{
   text-decoration: none;
   text-align: center;
   color: grey;
-  padding: 15px;
+  padding: 25px;
 }
+
 .nav-bar a:hover {
   color: #696969;
   text-shadow: 5px 5px 10px rgba(0,0,0,.2);
 }
+
 .header-img-home-page img{
   width: 100%;
 }
+
 .header-img-home-page {
   margin-top: 90px;
 }
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -120,6 +129,7 @@ header nav a img {
     border-bottom: 1px dashed black;
     padding-top: 30px;
 }
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -231,7 +241,6 @@ footer nav a {
     text-decoration: none;
 }
 
-
 /*------------------------------------------------------------------------------
  A B O U T   P A G E
 -----------------------------------------------------------------------------*/
@@ -241,15 +250,19 @@ footer nav a {
 .header-img-about-page img {
   width: 100%
 }
+
 .header-img-about-page {
   padding-top: 90px;
 }
+
 .header-content-about h1{
   text-align: left;
 }
+
 .header-content-about p {
   text-align: left;
 }
+
 .header-content-about {
   padding: 20px;
   border-bottom: 1px dashed black;
@@ -263,19 +276,24 @@ footer nav a {
   justify-content: center;
   padding: 20px;
 }
+
 .item-about-page {
   text-align: left;
   border-bottom: 1px dashed black;
 }
+
 .item-about-page img {
   width: 100%;
 }
+
 .item-about-page h2 {
  padding-top: 10px;
 }
+
 .item-about-page p {
   padding-bottom: 20px;
 }
+
 .item-about-page button {
   padding: 8px;
   width: 120px;
@@ -286,12 +304,15 @@ footer nav a {
   cursor: pointer;
   margin-bottom: 20px;
 }
+
 .item-about-page button:hover {
   box-shadow: 0 0 15px rgba(0,0,0,.2);
 }
+
 .item-left-about {
   margin-right: 40px;
 }
+
 .bottom-about-page {
   padding: 20px;
 }
@@ -302,21 +323,46 @@ footer nav a {
 /*==================================
  HEADER
 ==================================*/
-.header-img-products-page img{
-  width: 100%;
+header {
+  text-align: center;
 }
-.header-img-products-page {
-  margin-top: 90px;
-}
+
 .header-content-products h1{
-  text-align: left;
+  text-align: center;
+  padding-top: 120px;
+  font-size: 30px;
 }
+
 .header-content-products p {
-  text-align: left;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 2;
 }
+
 .header-content-products {
   padding: 20px;
   border-bottom: 1px dashed black;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.header-content-products button {
+  padding: 8px;
+  width: 140px;
+  background-color: grey;
+  border: 1px solid grey;
+  border-radius: 5px;
+  outline: 0;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: white;
+}
+
+.header-content-products button:hover {
+  box-shadow: 0 0 15px rgba(0,0,0,.2);
 }
 
 /*============================
@@ -324,8 +370,100 @@ footer nav a {
 =============================*/
 .row-products-page {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 20px;
+  padding-top: 60px;
 }
+
 .item-left-product {
   margin-right: 50px;
+}
+
+.item-products-page img {
+  width: 100%;
+}
+
+.item-products-page h2 {
+  font-size: 20px;
+}
+
+.item-products-page p {
+  line-height: 2;
+  padding-bottom: 20px;
+}
+
+.item-products-page button {
+  padding: 6px;
+  width: 140px;
+  background-color: #f9f9ff;
+  border: 1px solid grey;
+  border-radius: 5px;
+  outline: 0;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.item-products-page button:hover {
+  box-shadow: 0 0 15px rgba(0,0,0,.2);
+}
+
+.item-products-page {
+  width: 400px;
+}
+
+.last-row-product-page {
+  margin-bottom: 80px;
+  border-bottom: 1px dashed black;
+  padding-bottom: 60px;
+}
+
+/*---------------------------------------------------------------------------
+ C O N T A C T   P A G E
+---------------------------------------------------------------------------*/
+/*==============================
+ MAIN
+==============================*/
+.form-contact-page {
+  padding-top: 120px;
+  text-align: center;
+  padding-bottom: 170px;
+}
+
+.form-contact-page h1 {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.form-contact-page form {
+  border: 1px solid grey;
+  padding: 30px;
+  font-size: 18px;
+}
+
+.button-contact-page {
+  padding: 8px;
+  width: 120px;
+  background-color: #f9f9ff;
+  border: 1px solid grey;
+  border-radius: 5px;
+  outline: 0;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.button-contact-page:hover {
+  box-shadow: 0 0 15px rgba(0,0,0,.2);
+}
+
+.input-contact-page {
+  width: 200px;
+  height: 30px;
+  outline: 0;
+}
+
+.input-contact-page:hover {
+  box-shadow: 0 0 0px rgba(0,0,0,.1);
 }
