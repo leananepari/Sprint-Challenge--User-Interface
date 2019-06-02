@@ -338,20 +338,39 @@ footer nav a {
  MAIN
 ==============================*/
 .form-contact-page {
-  padding-top: 90px;
+  padding-top: 120px;
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 170px;
 }
 .form-contact-page h1 {
   text-align: center;
   font-size: 30px;
+  padding-bottom: 20px;
 }
 .form-contact-page form {
   border: 1px solid grey;
   padding: 30px;
   font-size: 18px;
 }
+.button-contact-page {
+  padding: 8px;
+  width: 120px;
+  background-color: #f9f9ff;
+  border: 1px solid grey;
+  border-radius: 5px;
+  outline: 0;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.button-contact-page:hover {
+  box-shadow: 0 0 15px rgba(0,0,0,.2);
+}
 .input-contact-page {
   width: 200px;
-  height: 25px;
+  height: 30px;
+  outline: 0;
 }
+.input-contact-page:hover {
+  box-shadow: 0 0 0px rgba(0,0,0,.1);
+}
+
