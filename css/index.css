@@ -493,9 +493,9 @@ header {
   padding-top: 90px;
   width: 100%;
 }
-.image-with-text-blog-page {
+/* .image-with-text-blog-page {
   position: relative;
-}
+} */
 .image-text {
   position: absolute;
   bottom: 150px;
@@ -503,7 +503,7 @@ header {
   font-size: 50px;
   color: white;
 }
-.search-image {
+/* .search-image {
   position: absolute;
   bottom: 100px;
   left: 56px;
@@ -522,4 +522,4 @@ header {
 }
 .button-image:hover {
   box-shadow: 0 0 15px rgba(0,0,0,.2);
-}
+} */
