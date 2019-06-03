@@ -482,3 +482,44 @@ header {
   bottom: 0;
   width: 80%;
 }
+
+/*-----------------------------------------------------------------------
+ B L O G   P A G E
+-----------------------------------------------------------------------*/
+/*==========================
+ HEADER
+===========================*/
+.header-img-blog-page img {
+  padding-top: 90px;
+  width: 100%;
+}
+.image-with-text-blog-page {
+  position: relative;
+}
+.image-text {
+  position: absolute;
+  bottom: 150px;
+  left: 56px;
+  font-size: 50px;
+  color: white;
+}
+.search-image {
+  position: absolute;
+  bottom: 100px;
+  left: 56px;
+  width: 200px;
+  height: 25px;
+  font-size: 14px;
+  color: grey;
+  outline: 0;
+}
+.button-image {
+  position: absolute;
+  bottom: 100px;
+  left: 260px;
+  height: 25px;
+  outline: 0;
+}
+.button-image:hover {
+  box-shadow: 0 0 15px rgba(0,0,0,.2);
+}
