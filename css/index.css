@@ -112,7 +112,7 @@ header nav a img {
 
 .nav-bar a:hover {
   color: #696969;
-  text-shadow: 5px 5px 10px rgba(0,0,0,.2);
+  text-shadow: 5px 5px 10px rgba(0,0,0,.1);
 }
 
 .header-img-home-page img{
@@ -340,7 +340,7 @@ header {
   text-align: center;
   font-size: 18px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   line-height: 2;
 }
 
@@ -352,15 +352,15 @@ header {
 }
 
 .header-content-products button {
-  padding: 8px;
-  width: 140px;
+  padding: 10px;
+  width: 180px;
   background-color: grey;
   border: 1px solid grey;
   border-radius: 5px;
   outline: 0;
   cursor: pointer;
   margin-bottom: 20px;
-  font-size: 14px;
+  font-size: 16px;
   color: white;
 }
 
@@ -381,6 +381,14 @@ header {
 
 .item-left-product {
   margin-right: 50px;
+}
+
+.left {
+  border-bottom: 1px dashed black;
+}
+
+.item-right-product {
+  border-bottom: 1px dashed black;
 }
 
 .item-products-page img {
@@ -418,7 +426,6 @@ header {
 
 .last-row-product-page {
   margin-bottom: 80px;
-  border-bottom: 1px dashed black;
   padding-bottom: 60px;
 }
 
