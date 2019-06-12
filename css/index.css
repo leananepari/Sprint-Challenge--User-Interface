@@ -78,23 +78,25 @@ p {
   margin: 0 auto;
 }
 
-header {
-  text-align: center;
- }
-
 .nav-bar {
-  width: 80%;
+  width: 100%;
+  margin: 0 auto;
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.13);
+  height: 80px;
 }
 
-header nav {
+nav {
+  width: 80%;
+  height: 80px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.17);
-  height: 70px;
 }
 
 header nav a img {
@@ -105,7 +107,7 @@ header nav a img {
   text-decoration: none;
   text-align: center;
   color: grey;
-  padding: 25px;
+  padding: 2px;
 }
 
 .nav-bar a:hover {
